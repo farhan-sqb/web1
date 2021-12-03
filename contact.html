@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact | Yousef Saleh</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+
+
+<div class="navigation" id="topNavigation">
+    <a href="index.html">Home</a>
+    <a href="art_work.html">Art Work</a>
+    <a href="contact.html" class="active">Contact</a>
+    <a href="my_bio.html">Bio</a>
+  
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<div class="row">
+<div class="column">
+    <h2>Contact</h2>
+    <p>yousefsaleh13@gmail.com</p>    
+    <p>123-456-7890</p>
+</div>
+<div class="column">
+    <img src="images/Yousef_animal collage.jpg" class="image" />
+</div>
+</div>
+
+<div class="footer">
+    <p>@ 2021 Developed by Yousef Saleh</p>
+</div>
+
+</body>
+
+<script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("topNavigation");
+        if (x.className === "navigation") {
+            x.className += " responsive";
+        } else {
+            x.className = "navigation";
+        }
+    }
+</script>
+
+</html>
